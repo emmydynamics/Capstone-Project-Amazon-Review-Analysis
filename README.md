@@ -1,4 +1,4 @@
-# Capstone-Project Amazon-Review-Analysis
+![image](https://github.com/user-attachments/assets/4c33dd75-4cde-47ac-8a5b-20b7fe42d4ba)# Capstone-Project Amazon-Review-Analysis
 
 ### 1. Project Overview
 I'm working as a Junior Data Analyst at RetailTech Insights, A company that provides 
@@ -57,11 +57,76 @@ limitations:
 - I used **Bar Chart** to compare value among a few categories, **Pie and Doughnut Chart** to show
   proportion of a whole, **Scatter plot** to Show relationship Between set of values
 - In performing analysis on my dataset i used MS Excel
-- 
+- i used
+  ```
+  =large(array,k)
+  ```
+    - To find the highest average ratings then used filters (Ctrl + T) to find product.
+    - To find the products having the highest number of reviews deployed a pivot table which is          below
+      ================p1==============
+     - In order to locate How many products having a discount of 50% or more i used the countif          function
+  ```
+  =COUNTIF(Table1[discount_percentage],">=50%")
+  ```
+
+    - To find how many products are rated 3.0, 4.0 e.t.c i used the function below
+  ```
+  =COUNTIF(L3:L1466,">3.0")
+  ```
+
+    - Finding total potential revenue (actual_price × rating_count) by category i had to create        a calculated column which is below
+  ```
+  =[@[actual_price]]*[@rating]
+  ```
+     - To find number of unique products per price range bucket (e.g., <₹200, ₹200–₹500, >₹500)         i had to create a calculated column which is below
+  ```
+  =IF([@[actual_price]]<200, "<₹200", IF([@[actual_price]]<=500, "₹200 - ₹500", ">₹500"))
+  ```
+     - To find categories having products with the highest discounts i used same method deployed in first description
+     - to find the How many products that is having fewer than 1,000 reviews
+  ```
+  =COUNTIF(M3:M1463,"<1000")
+  ```
+
+     - The average discount percentage by product category **pivot table**
+       =============p2===============
+
+     - How many products are listed under each category **pivot table** below 
+       ==============p3================
+
+     - What is the average actual price vs the discounted price by category **pivot table**             below
+       ===============p4=================
+
+     - What is the total potential revenue (actual_price × rating_count) by category
+       **pivot table **below
+       ==================p5=============
+     - What is the number of unique products per price range bucket (e.g., <₹200, 
+       ₹200–₹500, >₹500) **pivot table**
+       ================p6=====================
+
+     - Identify the top 5 products in terms of rating and number of reviews combined                    **pivottable**
+       ================p7=====================
+  
+  
+  
+  
+  
+  
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+  
 
 
 
