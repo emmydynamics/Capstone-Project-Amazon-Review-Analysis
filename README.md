@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/4c33dd75-4cde-47ac-8a5b-20b7fe42d4ba)# Capstone-Project Amazon-Review-Analysis
+# Capstone-Project Amazon-Review-Analysis
 
 ### 1. Project Overview
 I'm working as a Junior Data Analyst at RetailTech Insights, A company that provides 
