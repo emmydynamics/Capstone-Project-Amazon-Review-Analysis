@@ -63,7 +63,9 @@ limitations:
   ```
     - To find the highest average ratings then used filters (Ctrl + T) to find product.
     - To find the products having the highest number of reviews deployed a pivot table which is          below
-      ================p1==============
+
+       ![p1](https://github.com/user-attachments/assets/56c2d3ab-732f-4cd8-a01d-1c60ee74d4ef)
+
      - In order to locate How many products having a discount of 50% or more i used the countif          function
   ```
   =COUNTIF(Table1[discount_percentage],">=50%")
@@ -89,25 +91,77 @@ limitations:
   ```
 
      - The average discount percentage by product category **pivot table**
-       =============p2===============
+
+       ![p2](https://github.com/user-attachments/assets/80b73a2a-102b-495e-82f4-63572581355d)
+
 
      - How many products are listed under each category **pivot table** below 
-       ==============p3================
 
-     - What is the average actual price vs the discounted price by category **pivot table**             below
-       ===============p4=================
+       ![p3](https://github.com/user-attachments/assets/6afa942d-e01c-4ff6-b277-e4f8049e4d4a)
+
+
+     - What is the average actual price vs the discounted price by category **pivot table** below
+
+       ![p4](https://github.com/user-attachments/assets/6bc95fbf-8f0e-4dea-8240-234955e02247)
+
 
      - What is the total potential revenue (actual_price × rating_count) by category
        **pivot table **below
-       ==================p5=============
+
+       ![p5](https://github.com/user-attachments/assets/54fe8dba-22bb-4778-b8b2-eaf0ae3b6147)
+
      - What is the number of unique products per price range bucket (e.g., <₹200, 
        ₹200–₹500, >₹500) **pivot table**
-       ================p6=====================
 
-     - Identify the top 5 products in terms of rating and number of reviews combined                    **pivottable**
-       ================p7=====================
+       ![p6](https://github.com/user-attachments/assets/2d8018f3-e7b5-42bc-9cb0-74a856d09ec8)
+
+
+     - Identify the top 5 products in terms of rating and number of reviews combined **pivottable**
+
+       ![p7](https://github.com/user-attachments/assets/be1bda97-e652-415d-981e-b45601df9709)
+
+
+  ### 5. Result interpertation
+
+  1. Average discount percentage by product category: This chart shows that **HomeImprovement** Category has the highest discount with 58% while Computer&Accessories is the second highest discount, the Toys&Games is the lowest of all.
+
+  2. How many products are listed under each category:** Electronics** 526 product which makes it the highest product under each category, we have **Computer&Accessoires** as the second highest which has 453 product, **Home&Kitchen** has 448 products, **officeProduct** has 31 product under it, **MusicalInstrument** and **HomeInprovemetent** has 2 product, then **car&Motorbike**,**Toys&Game**s and **Health&PersonalCare** has 1 product each.
+
+  3. What is the total number of reviews per category:
+     
+Car&Motorbike                   1118
+Computers&Accessories           7728689
+Electronics                     15778848      
+Health&PersonalCare             3663
+Home&Kitchen                    2991069    
+HomeImprovement                 8566
+MusicalInstruments              88882
+OfficeProducts                  149675
+Toys&Games                      15867       
+
+
+ 4. Which products have the highest average ratings: B0BP7XLX48, B0BQRJ3C47, B09ZHCJDP1
+ 5. What is the average actual price vs the discounted price by category: 
+
+
+
+ 
+
+  
+
+  
+
+
+
+
+
+
+
+
+
   
   
+
   
   
   
