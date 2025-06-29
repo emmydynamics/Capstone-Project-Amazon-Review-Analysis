@@ -127,21 +127,11 @@ limitations:
 
   2. How many products are listed under each category:** Electronics** 526 product which makes it the highest product under each category, we have **Computer&Accessoires** as the second highest which has 453 product, **Home&Kitchen** has 448 products, **officeProduct** has 31 product under it, **MusicalInstrument** and **HomeInprovemetent** has 2 product, then **car&Motorbike**,**Toys&Game**s and **Health&PersonalCare** has 1 product each.
 
-  3. What is the total number of reviews per category:
-     
-Car&Motorbike                   1118
-Computers&Accessories           7728689
-Electronics                     15778848      
-Health&PersonalCare             3663
-Home&Kitchen                    2991069    
-HomeImprovement                 8566
-MusicalInstruments              88882
-OfficeProducts                  149675
-Toys&Games                      15867       
+  3. What is the total number of reviews per category: Car&Motorbike 1118, Computers&Accessories 7728689, Electronics 15778848, Health&PersonalCare 3663, Home&Kitchen 2991069, HomeImprovement  8566, MusicalInstruments 88882, OfficeProducts  149675, Toys&Games 15867       
 
 
- 4. Which products have the highest average ratings: B0BP7XLX48, B0BQRJ3C47, B09ZHCJDP1
- 5. What is the average actual price vs the discounted price by category: 
+   4. Which products have the highest average ratings: B0BP7XLX48, B0BQRJ3C47, B09ZHCJDP1
+   5. What is the average actual price vs the discounted price by category: 
 
 
 
