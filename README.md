@@ -40,7 +40,7 @@ Missing data: column M which is the Review_count column has two(2) missing cells
 located at Product_id B0BQRJ3C47 & B0B94JPY2N
 
 
-limitations: 
+**limitations:** the dataset didn't include time(year,month,days) these would have help for a better analysis
 
 
 ### 3. Data Cleaning Process
@@ -62,11 +62,11 @@ limitations:
   =large(array,k)
   ```
     - To find the highest average ratings then used filters (Ctrl + T) to find product.
-    - To find the products having the highest number of reviews deployed a pivot table which is          below
+    - To find the products having the highest number of reviews deployed a pivot table which is below
 
        ![p1](https://github.com/user-attachments/assets/56c2d3ab-732f-4cd8-a01d-1c60ee74d4ef)
 
-     - In order to locate How many products having a discount of 50% or more i used the countif          function
+     - In order to locate How many products having a discount of 50% or more i used the countif function
   ```
   =COUNTIF(Table1[discount_percentage],">=50%")
   ```
@@ -76,11 +76,11 @@ limitations:
   =COUNTIF(L3:L1466,">3.0")
   ```
 
-    - Finding total potential revenue (actual_price × rating_count) by category i had to create        a calculated column which is below
+    - Finding total potential revenue (actual_price × rating_count) by category i had to create a calculated column which is below
   ```
   =[@[actual_price]]*[@rating]
   ```
-     - To find number of unique products per price range bucket (e.g., <₹200, ₹200–₹500, >₹500)         i had to create a calculated column which is below
+     - To find number of unique products per price range bucket (e.g., <₹200, ₹200–₹500, >₹500) i had to create a calculated column which is below
   ```
   =IF([@[actual_price]]<200, "<₹200", IF([@[actual_price]]<=500, "₹200 - ₹500", ">₹500"))
   ```
@@ -131,7 +131,29 @@ limitations:
 
 
    4. Which products have the highest average ratings: B0BP7XLX48, B0BQRJ3C47, B09ZHCJDP1
-   5. What is the average actual price vs the discounted price by category: 
+   5. What is the average actual price vs the discounted price by category: this show that Electronics has the highest actual price of 10127.31179 and highest discount price of 5965.887833
+   6. which products have the highest number of reviews: B0BP7XLX48
+   7. How many products have a discount of 50% or more: 751
+   8. What is the distribution of product ratings (e.g., how many products are rated 3.0, 4.0,     etc.): 1454
+   9. The highest total potential revenue is Electronic with 22210296.4
+   10. Highest products per price range bucket is >₹500 having 1245 product 
+   11. There is no upward or downward trend 
+   12. How many products have fewer than 1,000 reviews: 324
+   13. Which categories have products with the highest discounts : Computers&Accessories with 94%
+   14. will be show at visualization 
+
+- In respect to data giving to me, Electronic, HomeImprovement and Computers&Accessories always have a upward trend 
+
+====================Visualization=====================
+### 6. Insights
+-	Discount of product do not improve higher rating or reviews the company should focus more on product quality rather than discount.
+-	Too much discount can affect the company’s Revenue which is to say discount should be brought to maximum of 30-40%.
+-	For product with low review and potential Revenue like Health&PersonalCare category should seek endorsement for clinic and order medical organization to strengthen trust from customers like an open advert from this organization.
+-	Their should be more focus and improvement in this categories, Electronics, Computers&Accessories, Home&Kitchen 
+-	More advert are to be made for other product having lesser review and the products quality should be inspected.
+-	On the application suggestions of other products should be made to customer.
+-	Instead of a general discount, discount should be made on product with less purchase and review.
+
 
 
 
