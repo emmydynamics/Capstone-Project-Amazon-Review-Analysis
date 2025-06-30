@@ -142,9 +142,12 @@ located at Product_id B0BQRJ3C47 & B0B94JPY2N
    13. Which categories have products with the highest discounts : Computers&Accessories with 94%
    14. will be show at visualization 
 
-- In respect to data giving to me, Electronic, HomeImprovement and Computers&Accessories always have a upward trend 
+- In respect to data giving to me, Electronic, HomeImprovement and Computers&Accessories always have a upward trend
 
-====================Visualization=====================
+  #### DASHBOARD
+
+![Real Dash Board](https://github.com/user-attachments/assets/ce905c99-c73b-44be-b9ed-814bd82f74f4)
+
 ### 6. Insights
 -	Discount of product do not improve higher rating or reviews the company should focus more on product quality rather than discount.
 -	Too much discount can affect the company’s Revenue which is to say discount should be brought to maximum of 30-40%.
