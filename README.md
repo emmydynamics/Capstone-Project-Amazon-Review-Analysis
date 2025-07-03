@@ -159,6 +159,11 @@ located at Product_id B0BQRJ3C47 & B0B94JPY2N
 
 
 
+# LINK TO SECOND PROJECT HERE
+https://github.com/emmydynamics/Kultra-Mega-Stores-Inventory-EDA-with-SQL
+
+
+
 
  
 
